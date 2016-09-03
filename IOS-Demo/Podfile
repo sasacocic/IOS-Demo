@@ -7,5 +7,7 @@ target 'IOS-Demo' do
 
   # Pods for IOS-Demo
   pod 'Firebase', '~> 3.5'
+  pod 'Firebase/Auth'
+  pod 'FirebaseAuth', '~> 3.0'
 
 end
