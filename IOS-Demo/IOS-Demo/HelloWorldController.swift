@@ -17,14 +17,15 @@ class HelloWorldController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         if let user = FIRAuth.auth()?.currentUser {
-            print("navigate somewhere else because a user is already signed in \(user.email!)")
-            //sign them out. this is just for testing
-            do {
-                try FIRAuth.auth()?.signOut()
-            } catch let signoutError as NSError {
-                print("Error signing out: \(signoutError)")
-            }
-            return
+//            print("navigate somewhere else because a user is already signed in \(user.email!)")
+//            //sign them out. this is just for testing
+//            do {
+//                try FIRAuth.auth()?.signOut()
+//            } catch let signoutError as NSError {
+//                print("Error signing out: \(signoutError)")
+//            }
+//            return
+            self.signIn(user)
         }
         else{
             print("NO ONE IS SIGNED IN GOOD!")

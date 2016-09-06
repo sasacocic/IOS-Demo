@@ -9,5 +9,7 @@ target 'IOS-Demo' do
   pod 'Firebase', '~> 3.5'
   pod 'Firebase/Auth'
   pod 'FirebaseAuth', '~> 3.0'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
 
 end

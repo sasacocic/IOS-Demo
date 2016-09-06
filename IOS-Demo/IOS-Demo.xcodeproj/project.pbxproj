@@ -15,6 +15,7 @@
 		A41062071D7B40D4006114B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41062051D7B40D4006114B4 /* LaunchScreen.storyboard */; };
 		A410620F1D7B4248006114B4 /* HelloWorldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A410620E1D7B4248006114B4 /* HelloWorldController.swift */; };
 		A45ABDEB1D7DF15400B64C4F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A45ABDEA1D7DF15400B64C4F /* GoogleService-Info.plist */; };
+		A45ABDED1D7E543A00B64C4F /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45ABDEC1D7E543A00B64C4F /* HomePageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A41062081D7B40D4006114B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A410620E1D7B4248006114B4 /* HelloWorldController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldController.swift; sourceTree = "<group>"; };
 		A45ABDEA1D7DF15400B64C4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A45ABDEC1D7E543A00B64C4F /* HomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				A41062031D7B40D4006114B4 /* Assets.xcassets */,
 				A41062051D7B40D4006114B4 /* LaunchScreen.storyboard */,
 				A41062081D7B40D4006114B4 /* Info.plist */,
+				A45ABDEC1D7E543A00B64C4F /* HomePageController.swift */,
 			);
 			path = "IOS-Demo";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A410620F1D7B4248006114B4 /* HelloWorldController.swift in Sources */,
+				A45ABDED1D7E543A00B64C4F /* HomePageController.swift in Sources */,
 				A41061FF1D7B40D4006114B4 /* ViewController.swift in Sources */,
 				A41061FD1D7B40D4006114B4 /* AppDelegate.swift in Sources */,
 			);
